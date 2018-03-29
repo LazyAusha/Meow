@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "Play";
+	src: url("https://fonts.googleapis.com/css?family=Play") format("woff");
+}
+
+
+.page-header {
+    padding: 10px;
+    background-color: #eeeeee;
+}
+
+.page-footer {
+    padding: 10px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+}
+
+.price-list {
+	border-collapse: collapse;
+	width: 50%; 					\*Изначально было 100%*/
+	border-spacing: 0;                     
+}
+
+.price-list td {
+	border: 1px solid #333333;
+}
+
+.price-list th {
+	text-align: left;
+	font-weight: normal;
+}
+
+.price-list .price-number {
+	text-align: center;
+}
+
+.price-list .price-name {
+	font-weight: bold;
+}
+
+.feedback-form-group {
+  padding: 10px 0;
+}
